@@ -19,7 +19,7 @@
  /* Header Section. */
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 16px 0;
 }
@@ -63,13 +63,15 @@
     text-align: center;
  }
 
- .hero-content button{
+ .hero-content .top-panel{
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
     color: #469165;
     padding: 8px 12px;
     border: none;
     border-radius: 1000px;
     background-color: #FFFFFF;
-    margin-bottom: 16px;
  }
 
  .green{
@@ -77,6 +79,7 @@
  }
 
  .hero-content h1{
+   margin-top: 16px;
     font-size: 70px;
     color: #FFFFFF;
  }
@@ -301,4 +304,8 @@
 
  /* Hover effect */
 
- 
+button:hover{
+   cursor: pointer;
+   background-color: #3896e9;
+   box-shadow: 0 5px 15px rgba(88, 84, 84, 0.452);
+}
