@@ -164,3 +164,58 @@
    width: 24px;
    height: auto;
 }
+
+ /* Brain section */
+#knowledge{
+   padding: 120px;
+   /* background-color: aqua; */
+}
+
+ .knowledge-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 55px;
+ }
+
+.knowledge-pic img{
+   max-width: 500px;
+   max-height: 500px;
+   border-radius: 12px;
+}
+
+.knowledge-content{
+   text-align: left;
+}
+
+.knowledge-content h5{
+   font-size: 16px;
+   font-weight: 500;
+   color: #469165;
+}
+
+.knowledge-content h2{
+   font-size: 44px;
+   font-weight: bold;
+   color: #001931;
+   margin-top: 16px;
+}
+
+.knowledge-content p{
+   color: #627382;
+   line-height: 20px;
+   margin-top: 16px;
+}
+.check-mark{
+   margin-top: 40px;
+}
+
+.check-mark p{
+   font-weight: 500;
+   color: #001931;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+
+
