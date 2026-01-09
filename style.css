@@ -39,8 +39,11 @@
 
  /* Hero Section */
  #hero{
-    background: url("/assets/hero-bg.png");
+    background: url("assets/hero-bg.png");
     padding: 115px 120px 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
  }
 
  .hero-container{
